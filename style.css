@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100% ;
+    width: 100%;
+}
+.parent{
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+}
+.center{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(0%, -50%);
+    /* background-color: red; */
+}
+.imgComtainer{
+     overflow: hidden;
+     width: 0%;
+     height: 100%;
+     position: absolute;
+     /* background-color: yellow; */
+}
+.imgComtainer img{
+         height: 100%;
+         /* object-fit: cover; */
+}
+.text{
+        overflow: hidden;
+        width: 400px;
+        height: 100px;
+        position: absolute;
+        top:  70%;
+        left: -10%;
+        /* background-color: green; */
+        z-index: 999;
+}
+.text h1{
+        margin: 0;
+        font-size: 4vw;
+        position: absolute;
+        top: 100px;
+}
